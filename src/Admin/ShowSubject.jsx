@@ -13,7 +13,7 @@ const ShowSubject = () => {
     <div className="row">
       <div className="col-lg-4 mb-5">
         <div className="card border-0 bg-light shadow-sm pb-2">
-          <img className="card-img-top mb-2" src="img/class-1.jpg" alt />
+        
           <div className="card-body text-center">
             <h4 className="card-title">Subject abc</h4>
             <p className="card-text">subject k bare mein</p>
@@ -36,12 +36,12 @@ const ShowSubject = () => {
               <div className="col-6 py-1">390 / Month</div>
             </div>
           </div>
-          <a href className="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+          
         </div>
       </div>
       <div className="col-lg-4 mb-5">
         <div className="card border-0 bg-light shadow-sm pb-2">
-          <img className="card-img-top mb-2" src="img/class-2.jpg" alt />
+          
           <div className="card-body text-center">
             <h4 className="card-title">Language Learning</h4>
             <p className="card-text">Fluent English speaking</p>
@@ -64,12 +64,11 @@ const ShowSubject = () => {
               <div className="col-6 py-1">390 / Month</div>
             </div>
           </div>
-          <a href className="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
-        </div>
+              </div>
       </div>
       <div className="col-lg-4 mb-5">
         <div className="card border-0 bg-light shadow-sm pb-2">
-          <img className="card-img-top mb-2" src="img/class-3.jpg" alt />
+          
           <div className="card-body text-center">
             <h4 className="card-title">Basic Science</h4>
             <p className="card-text">Science is this that yaahooo</p>
@@ -92,7 +91,7 @@ const ShowSubject = () => {
               <div className="col-6 py-1">390 / Month</div>
             </div>
           </div>
-          <a href className="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+         
         </div>
       </div>
     </div>

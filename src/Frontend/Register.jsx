@@ -79,7 +79,7 @@ const register = () => {
               <option>Standard 10</option>
               <option>Science</option>
               <option>Commerce</option>
-              <option>Bacic Coading</option>
+              <option>Basic Coading</option>
             </select>
           </div>
         </div>
@@ -87,7 +87,7 @@ const register = () => {
      
       {/* Text input*/}
       <div className="form-group">
-        <label className="col-md-4 control-label">Password</label> 
+        <label className="col-md-4 control-label">Create Password</label> 
         <div className="col-md-4 inputGroupContainer">
           <div className="input-group">
             <span className="input-group-addon"><i className="glyphicon glyphicon-user" /></span>

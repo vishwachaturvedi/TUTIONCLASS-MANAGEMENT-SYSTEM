@@ -18,6 +18,10 @@ import StudentDesk from './Student/StudentDesk';
 import Facultydemo from './Faculty/Facultydemo';
 import FacultyDesk from './Faculty/FacultyDesk';
 import ShowFaculty from './Admin/ShowFaculty';
+import AddCourse from './Admin/AddCourse';
+import FacultyRegistration from './Frontend/FacultyRegistration';
+import AddSubject from './Admin/AddSubject';
+import ShowSubject from './Admin/ShowSubject';
 
 function App() {
   return (
@@ -34,11 +38,16 @@ function App() {
           <Route path="Extra_facilities" element={< Extra_facilities />} />
           <Route path="Work_with_us" element={< Work_with_us />} />
           <Route path="Our_courses" element={< Our_courses />} />
+          <Route path="FacultyRegistration" element={< FacultyRegistration />} />
         </Route>
 
         <Route path="/Admindemo" element={<Admindemo />}>
            <Route index element={<AdminDesk />} />
            <Route path="ShowFaculty" element={< ShowFaculty />} />
+           <Route path="AddCourse" element={< AddCourse />} />
+           <Route path="AddSubject" element={< AddSubject />} />
+           <Route path="ShowSubject" element={< ShowSubject />} />
+
         </Route>
         <Route path="/Studentdemo" element={<Studentdemo />}>
            <Route index element={<StudentDesk />} />
@@ -46,6 +55,8 @@ function App() {
         <Route path="/Facultydemo" element={<Facultydemo />}>
            <Route index element={<FacultyDesk />} />
         </Route>
+        {/*<Route path="*" element={<Error/>}></Route>*/}
+
       </Routes> 
       </div>
       </>
