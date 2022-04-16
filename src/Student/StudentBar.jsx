@@ -12,25 +12,30 @@ const routes = [
     icon: <FaHome />,
   },
   {
-    path: "Service",
-    name: "Service",
+    path: "ShowCourses",
+    name: "ShowCourses",
     icon: <AiTwotoneFileExclamation />,
     subRoutes: [
       {
-        path: "AddService",
-        name: "AddService ",
-        icon: <FaUserPlus />,
+        path: "ShowSubject",
+        name: "ShowSubject ",
+        icon: <FaBars />,
       },
       {
-        path: "ShowService",
-        name: "ShowService",
-        icon: <FaDatabase />,
+        path: "ShowAssignment",
+        name: "ShowAssignment",
+        icon: <FaBars />,
+      },
+      {
+        path: "ShowExams",
+        name: "ShowExams",
+        icon: <FaBars />,
       },
     ],
   },
   {
-    path: "ShowUser",
-    name: "ShowUser",
+    path: "ShowProfile",
+    name: "ShowProfile",
     icon: <FaUser />,
   },
   {

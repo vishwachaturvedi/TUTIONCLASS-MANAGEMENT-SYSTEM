@@ -22,6 +22,7 @@ import AddCourse from './Admin/AddCourse';
 import FacultyRegistration from './Frontend/FacultyRegistration';
 import AddSubject from './Admin/AddSubject';
 import ShowSubject from './Admin/ShowSubject';
+import ShowCourses from './Admin/ShowCourses';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
            <Route path="AddCourse" element={< AddCourse />} />
            <Route path="AddSubject" element={< AddSubject />} />
            <Route path="ShowSubject" element={< ShowSubject />} />
+           <Route path="ShowCourses" element={< ShowCourses />} />
 
         </Route>
         <Route path="/Studentdemo" element={<Studentdemo />}>
