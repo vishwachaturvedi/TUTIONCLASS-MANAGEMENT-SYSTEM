@@ -2,7 +2,10 @@ import React from 'react'
 
 const AdminDesk = () => {
   return (
-    <div>AdminDesk</div>
+    <div>AdminDesk
+
+      faculty request approve
+    </div>
   )
 }
 

@@ -2,7 +2,16 @@ import React from 'react'
 
 const StudentDesk = () => {
   return (
-    <div>StudentDesk</div>
+    <div>StudentDesk
+
+      Course Subscribed
+
+      evaluation
+
+      assigments
+
+      notes reguarding current Course
+    </div>
   )
 }
 
