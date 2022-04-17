@@ -23,6 +23,7 @@ import FacultyRegistration from './Frontend/FacultyRegistration';
 import AddSubject from './Admin/AddSubject';
 import ShowSubject from './Admin/ShowSubject';
 import ShowCourses from './Admin/ShowCourses';
+import ForgotPass from './Frontend/ForgotPass';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/" element={<Frontend />}>
           <Route index element={<Landing />} />
           <Route path="Login" element={< Login />} />
+          <Route path="ForgotPass" element={< ForgotPass />} />
           <Route path="New_or_reg" element={< New_or_reg />} />
           <Route path="Register" element={< Register />} />
           <Route path="About_us" element={< About_us />} />
@@ -40,6 +42,7 @@ function App() {
           <Route path="Work_with_us" element={< Work_with_us />} />
           <Route path="Our_courses" element={< Our_courses />} />
           <Route path="FacultyRegistration" element={< FacultyRegistration />} />
+
         </Route>
 
         <Route path="/Admindemo" element={<Admindemo />}>

@@ -1,49 +1,52 @@
 import React from 'react' 
 import { Link } from 'react-router-dom'
+import ForgotPass from './ForgotPass'
 
 const login = () => {
   return (
     <div>
   
   
-
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Login here</span></p>
-                
-                
-            </div>
-            <center>
-            <div class="row">
-                <div class="col-lg-7 mb-5">
-                    <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                            <label className="col-md-4 control-label"> USERNAME</label>
-                                <input type="text" class="form-control" id="name" placeholder="UserName" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                            <label className="col-md-4 control-label">PASSWORD </label>
-                                <input type="email" class="form-control" id="pass" placeholder="Password" required="required" data-validation-required-message="Please enter your password " />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                           
-                           
-                            <div>
-                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Login</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-               
-            </div>
-            </center>
-        </div>
+  <div className="container-fluid py-5">
+    <div className="container p-0">
+      <div className="text-center pb-2">
+        <p className="section-title px-5"><span className="px-2">Login In To Your Profile</span></p>
+        
+      </div>
     </div>
-    
+  </div>
+
+  <div className="container"  >
+     <div className="offset-sm-4">
+        <div className="row align-items-center">
+     
+      <div className="col-lg-5">
+        <div className="card border-0">
+          <div className="card-header bg-secondary text-center p-4">
+            <h1 className="text-white m-0">Login</h1>
+          </div>
+          <div className="card-body rounded-bottom bg-primary p-9">
+            <form>
+              <div className="form-group">
+                <label> UserName</label>
+                <input type="text" className="form-control border-0 p-4" required="required" />
+              </div>
+              <div className="form-group">
+              <label> Password</label>
+                <input type="password" className="form-control border-0 p-4"  required="required" />
+              </div>
+              <div>
+                <button className="btn btn-secondary btn-block border-0 py-3" type="submit">Submit</button>
+              </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
 
 </div>
 
