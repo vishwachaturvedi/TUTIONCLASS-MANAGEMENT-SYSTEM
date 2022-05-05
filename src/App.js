@@ -24,6 +24,10 @@ import AddSubject from './Admin/AddSubject';
 import ShowSubject from './Admin/ShowSubject';
 import ShowCourses from './Admin/ShowCourses';
 import ForgotPass from './Frontend/ForgotPass';
+import PaymentPage from './Frontend/PaymentPage';
+import FacultyRequest from './Admin/FacultyRequest';
+
+
 
 function App() {
   return (
@@ -42,7 +46,12 @@ function App() {
           <Route path="Work_with_us" element={< Work_with_us />} />
           <Route path="Our_courses" element={< Our_courses />} />
           <Route path="FacultyRegistration" element={< FacultyRegistration />} />
-
+          
+          <Route path="PaymentPage" element={<PaymentPage />} />
+         
+          
+        
+          
         </Route>
 
         <Route path="/Admindemo" element={<Admindemo />}>
@@ -52,10 +61,13 @@ function App() {
            <Route path="AddSubject" element={< AddSubject />} />
            <Route path="ShowSubject" element={< ShowSubject />} />
            <Route path="ShowCourses" element={< ShowCourses />} />
-
+           <Route path="FacultyRequset" element={<FacultyRequest />} />
+          
+           
         </Route>
         <Route path="/Studentdemo" element={<Studentdemo />}>
            <Route index element={<StudentDesk />} />
+
         </Route>
         <Route path="/Facultydemo" element={<Facultydemo />}>
            <Route index element={<FacultyDesk />} />

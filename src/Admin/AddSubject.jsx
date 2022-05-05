@@ -53,6 +53,11 @@ const AddSubject = () => {
                 <input type="number" className="form-control border-0 p-4" placeholder="no. of seats" required="required" />
               </div>
 
+              <div className="form-group">
+                <label> Taught By:</label>
+                <input type="text" className="form-control border-0 p-4" placeholder="Faculty Name" required="required" />
+              </div>
+
               <div>
                 <button className="btn btn-secondary btn-block border-0 py-3" type="submit">Submit</button>
               </div>

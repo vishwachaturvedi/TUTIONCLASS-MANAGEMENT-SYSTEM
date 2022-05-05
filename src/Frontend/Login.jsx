@@ -20,7 +20,7 @@ const login = () => {
      <div className="offset-sm-4">
         <div className="row align-items-center">
      
-      <div className="col-lg-5">
+      <div className="col-lg-7">
         <div className="card border-0">
           <div className="card-header bg-secondary text-center p-4">
             <h1 className="text-white m-0">Login</h1>

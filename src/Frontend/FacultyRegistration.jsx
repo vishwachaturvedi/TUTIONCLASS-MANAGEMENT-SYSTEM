@@ -4,6 +4,8 @@ const FacultyRegistration = () => {
   return (
     <div>
       
+         
+       
       <div className="container-fluid py-5">
     <div className="container p-0">
       <div className="text-center pb-2">
@@ -12,16 +14,16 @@ const FacultyRegistration = () => {
       </div>
     </div>
   </div>
-
-  <div className="container">
+ <div className="offset-sm-3">
+  <div className="container p-10">
     <div className="row align-items-center">
      
-      <div className="col-lg-5">
+      <div className="col-lg-8">
         <div className="card border-0">
           <div className="card-header bg-secondary text-center p-4">
             <h1 className="text-white m-0">Give Your Details</h1>
           </div>
-          <div className="card-body rounded-bottom bg-primary p-5">
+          <div className="card-body rounded-bottom bg-primary p-8">
             <form>
               <div className="form-group">
                 <label> Your Full Name</label>
@@ -69,6 +71,7 @@ const FacultyRegistration = () => {
                 <button className="btn btn-secondary btn-block border-0 py-3" type="submit">Submit</button>
               </div>
             </form>
+            </div>
           </div>
         </div>
       </div>

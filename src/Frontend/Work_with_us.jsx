@@ -15,11 +15,7 @@ const Work_with_us = () => {
         <div className="col-md-6 col-lg-3 text-center team mb-5">
           <div className="position-relative overflow-hidden mb-4" style={{borderRadius: '100%'}}>
             <img className="img-fluid w-100" src="img/team-1.jpg" alt />
-            <div className="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-twitter" /></a>
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-facebook-f" /></a>
-              <a className="btn btn-outline-light text-center px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-linkedin-in" /></a>
-            </div>
+           
           </div>
           <h4>Julia Smith</h4>
           <i>Music Teacher</i>
@@ -27,11 +23,7 @@ const Work_with_us = () => {
         <div className="col-md-6 col-lg-3 text-center team mb-5">
           <div className="position-relative overflow-hidden mb-4" style={{borderRadius: '100%'}}>
             <img className="img-fluid w-100" src="img/team-2.jpg" alt />
-            <div className="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-twitter" /></a>
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-facebook-f" /></a>
-              <a className="btn btn-outline-light text-center px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-linkedin-in" /></a>
-            </div>
+            
           </div>
           <h4>Jhon Doe</h4>
           <i>Language Teacher</i>
@@ -39,11 +31,7 @@ const Work_with_us = () => {
         <div className="col-md-6 col-lg-3 text-center team mb-5">
           <div className="position-relative overflow-hidden mb-4" style={{borderRadius: '100%'}}>
             <img className="img-fluid w-100" src="img/team-3.jpg" alt />
-            <div className="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-twitter" /></a>
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-facebook-f" /></a>
-              <a className="btn btn-outline-light text-center px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-linkedin-in" /></a>
-            </div>
+           
           </div>
           <h4>Mollie Ross</h4>
           <i>Dance Teacher</i>
@@ -51,11 +39,7 @@ const Work_with_us = () => {
         <div className="col-md-6 col-lg-3 text-center team mb-5">
           <div className="position-relative overflow-hidden mb-4" style={{borderRadius: '100%'}}>
             <img className="img-fluid w-100" src="img/team-4.jpg" alt />
-            <div className="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-twitter" /></a>
-              <a className="btn btn-outline-light text-center mr-2 px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-facebook-f" /></a>
-              <a className="btn btn-outline-light text-center px-0" style={{width: 38, height: 38}} href="#"><i className="fab fa-linkedin-in" /></a>
-            </div>
+           
           </div>
           <h4>Donald John</h4>
           <i>Art Teacher</i>
