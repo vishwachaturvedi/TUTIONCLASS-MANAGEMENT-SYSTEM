@@ -26,6 +26,10 @@ import ShowCourses from './Admin/ShowCourses';
 import ForgotPass from './Frontend/ForgotPass';
 import PaymentPage from './Frontend/PaymentPage';
 import FacultyRequest from './Admin/FacultyRequest';
+import Package from './Admin/AddPackage';
+import AddFaculty from './Admin/AddFaculty';
+
+
 
 
 
@@ -62,9 +66,11 @@ function App() {
            <Route path="ShowSubject" element={< ShowSubject />} />
            <Route path="ShowCourses" element={< ShowCourses />} />
            <Route path="FacultyRequset" element={<FacultyRequest />} />
+           <Route path="AddPackage" element={<Package/>}/>
+           <Route path="AddFaculty" element={<AddFaculty/>}/>
           
-           
-        </Route>
+           </Route>
+        
         <Route path="/Studentdemo" element={<Studentdemo />}>
            <Route index element={<StudentDesk />} />
 

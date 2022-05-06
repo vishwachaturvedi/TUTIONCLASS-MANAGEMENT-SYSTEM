@@ -8,12 +8,12 @@ const ShowSubject = () => {
           <thead>
             <tr>
               <th scope="col">S.No</th>
-              <th scope="col">Course Name</th>
+              <th scope="col">Subject Name</th>
               <th scope="col">Standard</th>
               <th scope="col">Seats</th>
-              <th scope="col">Description</th>
-              <th scope="col">Starting Date</th>
-              <th scope="col">Ending Date</th>
+              <th scope="col"> Subjet Description</th>
+              <th scope="col">Fees </th>
+              <th scope="col">Taught By</th>
               <th scope="col">Action</th>
             </tr>
           </thead>

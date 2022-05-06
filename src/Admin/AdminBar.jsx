@@ -46,14 +46,43 @@ const routes = [
     ],
   },
   {
-    path: "ShowFaculty",
-    name: "ShowFaculty",
-    icon: <FaUser />,
+    path: "Faculty",
+    name: "Faculty",
+    icon: <AiTwotoneFileExclamation />,
+    subRoutes: [
+      {
+        path: "AddFaculty",
+        name: "AddFaculty ",
+        icon: <FaUserPlus />,
+      },
+      {
+        path: "ShowFaculty",
+        name: "ShowFaculty",
+        icon: <FaBars />,
+      },
+    ],
   },
   {
-    path: "ShowStudent",
-    name: "ShowStudent",
-    icon: <FaUser />,
+    path: "Student",
+    name: "Student",
+    icon: <AiTwotoneFileExclamation />,
+    subRoutes: [
+      {
+        path: "AddStudent",
+        name: "AddStudent ",
+        icon: <FaUserPlus />,
+      },
+      {
+        path: "ShowStudent",
+        name: "ShowStudent",
+        icon: <FaBars />,
+      },
+    ],
+  },
+  {
+    path: "AddPackage",
+    name: "AddPackage",
+    icon: <FaUserPlus />,
   },
   {
     path: "Logout",
